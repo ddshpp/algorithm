@@ -3,6 +3,6 @@
 -  https://www.acmicpc.net/user/dshp753
 
 ```
-하나씩 채워나가자
+제출할때 클래스명을 Main으로 해줘야 하는구나...
 ```
 

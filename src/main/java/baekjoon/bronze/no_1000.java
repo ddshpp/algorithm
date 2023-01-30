@@ -2,7 +2,7 @@ package baekjoon.bronze;
 
 import java.util.Scanner;
 
-public class Main {
+public class no_1000 {
     public static void main(String[] args) {
 
         //숫자입력받기(공백이 있는듯)
