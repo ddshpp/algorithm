@@ -1,7 +1,8 @@
 package baekjoon.bronze;
 
 import java.util.Scanner;
-public class no_1001 {
+
+public class No1001 {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
@@ -11,6 +12,11 @@ public class no_1001 {
         int a = Integer.parseInt(input2[0]);
         int b = Integer.parseInt(input2[1]);
 
-        System.out.println(a - b);
+        int answer = solution(a, b);
+        System.out.println(answer);
+    }
+
+    public static int solution(int a, int b) {
+        return a - b;
     }
 }
