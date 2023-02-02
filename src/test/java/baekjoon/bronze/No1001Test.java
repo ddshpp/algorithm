@@ -8,7 +8,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 class No1001Test {
 
     @Test
-    @DisplayName("1001번 테스트")
+    @DisplayName("No1001 테스트")
     void test1001() {
         // given
         int a = 3;

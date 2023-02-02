@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 class No1000Test {
 
     @Test
-    @DisplayName("1000번 테스트")
+    @DisplayName("No1000 테스트")
     void test1000() {
         // given
         int a = 1;

@@ -11,7 +11,7 @@ class No1152Test {
 
     @ParameterizedTest
     @CsvSource(value = {"The Curious Case of Benjamin Button:6", "The first character is a blank:6", "The last character is a blank:6"}, delimiter = ':')
-    @DisplayName("1152번 테스트")
+    @DisplayName("No1152 테스트")
     void test1152(String a, int expected) {
         // given
 
@@ -23,7 +23,7 @@ class No1152Test {
     }
 
     @Test
-    @DisplayName("1152번 테스트2")
+    @DisplayName("No1152 테스트2")
     void test1152() {
         // given
         String a = "";
