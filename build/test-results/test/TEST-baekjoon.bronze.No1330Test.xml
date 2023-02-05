@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="baekjoon.bronze.No1330Test" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-02-02T14:56:35" hostname="멍멍이" time="0.071">
-  <properties/>
-  <testcase name="[1] 1 2, &lt;" classname="baekjoon.bronze.No1330Test" time="0.067"/>
-  <testcase name="[2] 10 2, &gt;" classname="baekjoon.bronze.No1330Test" time="0.001"/>
-  <testcase name="[3] 5 5, ==" classname="baekjoon.bronze.No1330Test" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
