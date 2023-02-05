@@ -1,8 +1,7 @@
-### https://school.programmers.co.kr/learn/courses/30/lessons/120814?language=java
+package programmers.level0;
 
-```java
-class Solution {
-    public int solution(int n) {
+public class No120814 {
+    public static int solution(int n) {
         int answer = 0;
         for (int i = 1; i <= n; i++) {
             if ((7 * i) >= n) {
@@ -12,4 +11,3 @@ class Solution {
         return answer;
     }
 }
-```

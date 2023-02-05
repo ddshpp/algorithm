@@ -1,8 +1,7 @@
-### https://school.programmers.co.kr/learn/courses/30/lessons/120583?language=java
+package programmers.level0;
 
-```java
-class Solution {
-    public int solution(int[] array, int n) {
+public class No120583 {
+    public static int solution(int[] array, int n) {
         int answer = 0;
 
         for (int i = 0; i < array.length; i++) {
@@ -14,4 +13,3 @@ class Solution {
         return answer;
     }
 }
-```

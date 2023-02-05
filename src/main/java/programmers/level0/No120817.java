@@ -1,8 +1,7 @@
-### https://school.programmers.co.kr/learn/courses/30/lessons/120817?language=java
+package programmers.level0;
 
-```java
-class Solution {
-    public double solution(int[] numbers) {
+public class No120817 {
+    public static double solution(int[] numbers) {
         double answer = 0;
         for (int i = 0; i < numbers.length; i++) {
             answer += numbers[i];
@@ -10,4 +9,3 @@ class Solution {
         return answer / numbers.length;
     }
 }
-```
