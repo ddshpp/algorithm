@@ -1,8 +1,7 @@
-### https://school.programmers.co.kr/learn/courses/30/lessons/120849?language=java
+package programmers.level0;
 
-```java
-class Solution {
-    public String solution(String my_string) {
+public class No120849 {
+    public static String solution(String my_string) {
         String[] aeiou = {"a", "e", "i", "o", "u"};
         for (int i = 0; i < 5; i++) {
             my_string = my_string.replaceAll(aeiou[i], "");
@@ -10,4 +9,3 @@ class Solution {
         return my_string;
     }
 }
-```

@@ -1,8 +1,7 @@
-### https://school.programmers.co.kr/learn/courses/30/lessons/120851?language=java
+package programmers.level0;
 
-```java
-class Solution {
-    public int solution(String my_string) {
+public class No120851 {
+    public static int solution(String my_string) {
         int answer = 0;
 
         //문자열을 각각 쪼개기
@@ -20,4 +19,3 @@ class Solution {
         return answer;
     }
 }
-```
