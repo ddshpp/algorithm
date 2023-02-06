@@ -59,14 +59,14 @@ public class No1157 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         String input = scanner.nextLine();
-        input = input.toUpperCase();
 
         System.out.println(solution(input));
     }
 
     public static String solution(String input) {
+        input = input.toUpperCase();
+
         int[] inputAscii = new int[input.length()];
         int[] alphaCase = new int[26];
         int max = alphaCase[0];
@@ -75,10 +75,8 @@ public class No1157 {
             inputAscii[i] = input.charAt(i);
         }
 
-        char bigA = 'A';
-
         for (int i = 0; i < inputAscii.length; i++) {
-            int j = inputAscii[i] - bigA;
+            int j = inputAscii[i] - 'A';
             alphaCase[j]++;
         }
         for (int i = 0; i < alphaCase.length; i++) {
@@ -98,8 +96,8 @@ public class No1157 {
         if (count > 1) {
             return "?";
         } else {
-            char c = (char)(maxAscii + 65);
-            return c+"";
+            char c = (char) (maxAscii + 65);
+            return c + "";
         }
     }
 }

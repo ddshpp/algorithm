@@ -10,8 +10,7 @@ public class No2438 {
         Scanner scanner = new Scanner(System.in);
         int input = Integer.parseInt(scanner.nextLine());
 
-        List<String> list;
-        list = solution(input);
+        List<String> list = solution(input);
 
         for (int i = 0; i < list.size(); i++) {
             System.out.println(list.get(i));
