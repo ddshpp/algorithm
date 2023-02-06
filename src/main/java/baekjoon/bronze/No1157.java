@@ -63,9 +63,7 @@ public class No1157 {
         String input = scanner.nextLine();
         input = input.toUpperCase();
 
-        String answer = solution(input);
-
-        System.out.println(answer);
+        System.out.println(solution(input));
     }
 
     public static String solution(String input) {

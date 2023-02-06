@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="programmers.level0.No120906Test" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-02-05T10:19:46" hostname="멍멍이" time="0.072">
-  <properties/>
-  <testcase name="[1] 1234, 10" classname="programmers.level0.No120906Test" time="0.066"/>
-  <testcase name="[2] 930211, 16" classname="programmers.level0.No120906Test" time="0.003"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
