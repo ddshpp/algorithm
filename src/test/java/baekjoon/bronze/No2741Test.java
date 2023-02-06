@@ -8,22 +8,21 @@ import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-class No2438Test {
-
+class No2741Test {
     @Test
-    @DisplayName("백준 No2438 테스트")
-    void test2438() {
+    @DisplayName("백준 No2741 테스트")
+    void test2741() {
         // given
         int a = 5;
-        List<String> expected = new ArrayList<>();
-        expected.add("*");
-        expected.add("**");
-        expected.add("***");
-        expected.add("****");
-        expected.add("*****");
+        List<Integer> expected = new ArrayList<>();
+        expected.add(1);
+        expected.add(2);
+        expected.add(3);
+        expected.add(4);
+        expected.add(5);
 
         // when
-        List<String> solution = No2438.solution(a);
+        List<Integer> solution = No2741.solution(a);
 
         // then
         assertThat(solution).isEqualTo(expected);

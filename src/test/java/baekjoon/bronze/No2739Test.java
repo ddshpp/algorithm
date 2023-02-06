@@ -16,12 +16,17 @@ class No2739Test {
         // given
         int a = 2;
         List<String> expected = new ArrayList<>();
+        expected.add("2 * 1 = 2");
+        expected.add("2 * 2 = 4");
+        expected.add("2 * 3 = 6");
+        expected.add("2 * 4 = 8");
+        expected.add("2 * 5 = 10");
+        expected.add("2 * 6 = 12");
+        expected.add("2 * 7 = 14");
+        expected.add("2 * 8 = 16");
+        expected.add("2 * 9 = 18");
 
         // when
-        for (int i = 1; i < 10; i++) {
-            String b = a + " * " + i + " = " + a * i;
-            expected.add(b);
-        }
         List<String> solution = No2739.solution(a);
 
         // then
