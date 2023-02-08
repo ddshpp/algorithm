@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="baekjoon.bronze.No10952Test" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-02-08T11:44:18" hostname="멍멍이" time="0.076">
+  <properties/>
+  <testcase name="[1] 1 1, 2" classname="baekjoon.bronze.No10952Test" time="0.067"/>
+  <testcase name="[2] 2 3, 5" classname="baekjoon.bronze.No10952Test" time="0.001"/>
+  <testcase name="[3] 3 4, 7" classname="baekjoon.bronze.No10952Test" time="0.001"/>
+  <testcase name="[4] 9 8, 17" classname="baekjoon.bronze.No10952Test" time="0.001"/>
+  <testcase name="[5] 5 2, 7" classname="baekjoon.bronze.No10952Test" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
