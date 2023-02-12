@@ -23,7 +23,7 @@ public class No4153 {
     public static List<String> solution(List<String> input) {
         List<String> result = new ArrayList<>();
 
-        for (int i = 0; i < input.size()-1; i++) {
+        for (int i = 0; i < input.size() - 1; i++) {
             List<Integer> list = new ArrayList<>();
 
             String temp = input.get(i);
@@ -39,9 +39,9 @@ public class No4153 {
             int c = list.get(2) * list.get(2);
 
             if (a + b == c) {
-                result.add("right") ;
-            }else {
-                result.add("wrong") ;
+                result.add("right");
+            } else {
+                result.add("wrong");
             }
         }
         return result;
