@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="programmers.level1.No1845Test" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-02-13T11:46:51" hostname="멍멍이" time="0.074">
+  <properties/>
+  <testcase name="[1] 0" classname="programmers.level1.No1845Test" time="0.069"/>
+  <testcase name="[2] 1" classname="programmers.level1.No1845Test" time="0.0"/>
+  <testcase name="[3] 2" classname="programmers.level1.No1845Test" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
