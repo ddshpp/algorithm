@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="baekjoon.silver.No2581Test" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-02-26T14:44:00" hostname="멍멍이" time="0.073">
+  <properties/>
+  <testcase name="[1] 0" classname="baekjoon.silver.No2581Test" time="0.069"/>
+  <testcase name="[2] 1" classname="baekjoon.silver.No2581Test" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
