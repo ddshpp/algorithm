@@ -7,6 +7,8 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 class No1929Test {
 
+    private static final String NEW = System.lineSeparator();
+
     @Test
     @DisplayName("백준 No1929 테스트")
     void test1929() {
