@@ -21,7 +21,7 @@ public class No1181 {
     public static List<String> solution(Set<String> input) {
         List<String> list = new ArrayList<>(input);
 
-        Collections.sort(list, Comparator.comparing(String::length).thenComparing(Comparator.naturalOrder()));
+        list.sort(Comparator.comparing(String::length).thenComparing(Comparator.naturalOrder()));
 
         return list;
     }

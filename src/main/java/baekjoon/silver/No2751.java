@@ -26,8 +26,7 @@ public class No2751 {
         StringBuilder sb = new StringBuilder();
         Collections.sort(list);
 
-        for (int i : list
-        ) {
+        for (int i : list) {
             sb.append(i).append('\n');
         }
 
