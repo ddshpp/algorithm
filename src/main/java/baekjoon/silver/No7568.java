@@ -34,7 +34,6 @@ public class No7568 {
         
         //백준제출용
 //        String result = "";
-
         for (int i = 0; i < testNumber; i++) {
             int rank = 1;
 
@@ -45,7 +44,6 @@ public class No7568 {
                 }
             }
             temp[i] = rank;
-
             //백준제출용
 //            result += rank + " ";
         }
