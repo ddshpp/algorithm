@@ -105,14 +105,12 @@ public class No1654 {
             //n개 이상 쪼개졌다면 길이 증가
             if (count >= n) {
                 success = max;
-
                 max += half;
                 half = (half + 1) / 2;
             }
             // n개 이하로 쪼개졌다면 길이 감소
             else {
                 fail = max;
-
                 max -= half;
                 half = (half + 1) / 2;
             }
