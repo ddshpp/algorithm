@@ -9,8 +9,12 @@ import java.util.StringTokenizer;
 public class No10817 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        String input = br.readLine();
 
+        int solution = solution(br.readLine());
+        System.out.println(solution);
+    }
+
+    public static int solution(String input) {
         StringTokenizer st = new StringTokenizer(input);
 
         int[] arr = new int[3];
@@ -19,6 +23,6 @@ public class No10817 {
         }
         Arrays.sort(arr);
 
-        System.out.println(arr[1]);
+        return arr[1];
     }
 }
