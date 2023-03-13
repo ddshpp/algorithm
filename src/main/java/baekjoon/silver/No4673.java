@@ -23,4 +23,6 @@ public class No4673 {
         }
         return list;
     }
+
+
 }
